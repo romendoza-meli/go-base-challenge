@@ -6,10 +6,10 @@ import (
 )
 
 const (
-	earlyFlight     = "0-6"
-	morningFlight   = "7-12"
-	afternoonFligth = "13-19"
-	nightFlight     = "20-24"
+	EarlyFlight     = "0-6"
+	MorningFlight   = "7-12"
+	AfternoonFligth = "13-19"
+	NightFlight     = "20-24"
 )
 
 type Ticket struct {
