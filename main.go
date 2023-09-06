@@ -2,6 +2,9 @@ package main
 
 import (
 	"fmt"
+
+	"github.com/romendoza-meli/go-base-challenge/internal/repository"
+	"github.com/romendoza-meli/go-base-challenge/internal/tickets"
 )
 
 func main() {
