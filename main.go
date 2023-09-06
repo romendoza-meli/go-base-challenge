@@ -17,7 +17,7 @@ func main() {
 	totalTickets, _ := dailyTicketReport.GetTotalTickets("Brazil")
 	fmt.Println("Total tickets to Brazil:", totalTickets)
 
-	periodCount, _ := dailyTicketReport.GetCountByPeriod(tickets.PeriodMorning)
+	periodCount, _ := dailyTicketReport.GetCountByPeriod(tickets.MorningFlight)
 	fmt.Println("Period tickets count:", periodCount)
 
 	averageTicketsToDest, _ := dailyTicketReport.AverageDestination("Brazil", len(dailyTicketReport.Tickets))
